@@ -7,15 +7,11 @@ import NavBar from '../NavBar/NavBar'
 import Cart from '../CartUtility/Cart'
 import CheckoutDetails from '../CheckOut/CheckoutDetails'
 
-
 function AppRouter() {
-
-  
 
   return (
   
   <div>
-
         <NavBar/>
         <Routes>
             <Route path='/' element = {<LandinPage/>}></Route>

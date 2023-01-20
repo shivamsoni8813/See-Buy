@@ -1,19 +1,10 @@
 
 import AppRouter from "./components/Router/AppRouter";
-
-
 function App() {
- 
 
-
- 
- 
-  
-    
   return (
     <div>
       <AppRouter/>
-     
     </div>
   );
 }
