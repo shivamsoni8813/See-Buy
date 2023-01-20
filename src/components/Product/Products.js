@@ -127,7 +127,7 @@ function Products() {
                   &larr;previous
                 </button>
                 <button
-                
+                  
                   className="NextBtn btn-primary"
                   onClick={nextClick}
                   disabled={data.length === 0}
