@@ -1,0 +1,64 @@
+body{
+    background-color:white;   
+}
+.LandinfPage{
+    margin-top: 150px;
+    text-align: center;
+    margin-left: 20px;
+}
+.category-item{
+    
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    text-align: center;
+    align-items: center;
+}
+.category-item img{
+   width: 15vw;
+   margin-right: 15px;
+} 
+.cate-box{
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 10px 10px;
+    margin-left: 20px;
+    text-align: center;
+    box-shadow: 4px 4px 2px black;
+}
+.cate-box:hover{
+    background-color:black;
+    color: white;
+    font-size: 30px;
+    box-shadow: 4px 6px 6px peru;
+    cursor: pointer;
+
+}
+
+.title-name{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.LandingHeader {
+    margin-bottom: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.allProduct{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.productLink{
+    
+    text-decoration: none;
+}
+
+.allprod{
+    font-size: 2rem;
+}

@@ -1,0 +1,110 @@
+
+.productwrapper{
+    /* border: 2px solid black; */
+    width: 21vw;
+    height: 70vh;
+    margin: 25px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 10px;
+
+}
+.productwrapper:hover{
+    box-shadow: 20px 20px 20px black;
+}
+.product-card{
+    margin-left: 100px;
+    /* border: 2px solid rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+img{
+    cursor: pointer;
+    text-align: center;
+    width: 19vw;
+    margin-top: 2px;
+}
+.product-title{
+    cursor: pointer;
+    width: 20vw;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 17px;
+    font-style: italic;
+}   
+.product-cost{
+    width: 20vw;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.product-info{
+    width: 18vw;
+    text-align: center;
+    margin-top: 10px;
+}
+.card-btn{
+    text-align: center;
+    width: 20vw;
+    margin-top: 10px;
+}
+.btn{
+    width: 15vw;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.PreviousBtn{
+        border-radius: 10px;
+        background-color: gray;
+        font-size: 20px;
+        text-align: center;
+        box-shadow: 7px 7px 7px black;
+        margin-bottom: 2px;
+        width: 15vw
+    }
+.PreviousBtn:hover{
+        box-shadow: 4px 4px 4px black;
+        margin-bottom: 2px;
+        background-color: black;
+        color: wheat;
+}
+.NextBtn:hover{
+        box-shadow: 4px 4px 4px black;
+        margin-bottom: 2px;
+        background-color: black;
+        color: wheat;
+}
+.NextBtn{
+    border-radius: 10px;
+    background-color: gray;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 7px 7px 7px black;
+    margin-bottom: 2px;
+    width: 15vw
+}
+.paging{
+    border-radius: 10px;
+    background-color: gray;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 7px 7px 7px black;
+    margin-bottom: 2px;
+    width: 3vw;
+    cursor: pointer;
+
+}
+.pagingBtn{
+    background: none;
+    border: none;
+}

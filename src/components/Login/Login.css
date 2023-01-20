@@ -1,0 +1,90 @@
+.login{
+    background-image: linear-gradient(to top, black,rgb(224, 184, 184));
+    width: 100vw;
+    height: 78vh;
+}
+.imageOfLogin{
+    background-image:
+    url("https://img.freepik.com/premium-vector/e-commerce-orange-background_23-2147650065.jpg?w=2000");
+    background-position: center;
+    background-size: cover;
+    float: left;
+    /* margin-top: 10px; */
+    object-fit: cover;
+    background-size: cover;
+    width: 50vw; 
+    height: 75vh; 
+    margin-left: 10px;
+    border: 1px solid red;
+    border-radius: 20px;
+    opacity: 0.5;
+    
+}
+.auth-container{
+    height: 75vh;
+    text-align: center;
+    margin-top: 6%;
+    background-color:black;
+    background-image: linear-gradient(to top,  rgb(224, 184, 184), black);
+    margin-left: 10px;
+    color: white;
+    border-radius: 20px;
+    border: 2px solid red;
+    box-shadow: 10px  red;
+    /* float: right; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* width: 90vh; */
+    z-index: -1;
+}
+.form-control{
+    background: none;
+    border-bottom: 2px solid purple;
+    color: white;
+    margin: 10px 0px
+}
+.login-form-control{
+    /* border: 2px solid black; */
+    background: none;
+    width: 50%;
+    border: none;
+    border-bottom: 2px solid purple;
+    border-radius: 10px;
+    color: white;
+    margin: 15px 0px;
+}
+.login-input{
+    display: flex;
+    flex-direction: column;
+
+    width: 40vw;
+    margin-top: 20px;
+    margin: 33px 0px;
+    justify-content: center;
+    align-items: center;
+}
+.col-12{
+    text-align: center;
+}
+
+.submit{
+    width: 40%;
+    font-size: 20px;
+    margin-right:  15px;
+}
+.LoginHeader{
+    text-align: center;
+    margin-top: 10%;
+    /* padding-top: 4%; */
+    /* padding-right: 27%; */
+}
+.info{
+    font-size: 25px;
+    margin-top: 25px;
+}
+.signupButton{
+    background: none;
+    border: none;
+}
