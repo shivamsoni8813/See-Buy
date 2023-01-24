@@ -1,5 +1,7 @@
 .login{
-    background-image: linear-gradient(to top, black,rgb(224, 184, 184));
+    /* background-image: linear-gradient(to top, black,rgb(224, 184, 184)); */
+    margin-top: 8rem;
+
     width: 100vw;
     height: 78vh;
 }
@@ -14,10 +16,10 @@
     background-size: cover;
     width: 50vw; 
     height: 75vh; 
-    margin-left: 10px;
+    margin-left: 1.1rem;
     border: 1px solid red;
     border-radius: 20px;
-    opacity: 0.5;
+    margin-right: 1.3rem;
     
 }
 .auth-container{
@@ -26,7 +28,7 @@
     margin-top: 6%;
     background-color:black;
     background-image: linear-gradient(to top,  rgb(224, 184, 184), black);
-    margin-left: 10px;
+    margin-right: 1.3rem;
     color: white;
     border-radius: 20px;
     border: 2px solid red;
