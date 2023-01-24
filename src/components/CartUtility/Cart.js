@@ -51,7 +51,7 @@ function Cart({ cart }) {
                             <i className=" plus fa-solid fa-plus"></i>
                           </button>
                         </span>
-                        <span>{element.quantity}</span>
+                        <span className="quantity">{element.quantity}</span>
                         <span>
                           <button style={{ borderRadius: "10px" }}>
                             <i
@@ -94,7 +94,7 @@ function Cart({ cart }) {
             <div className="CheckOut-Wrapper">
 
             <div className="total-price">Total Amount: <i className="fa-solid fa-dollar-sign"></i>{CART.map((e)=> e.price * e.quantity).reduce((acc,cur)=> acc+cur,0)}</div>
-            <Link to='/checkoutDetails' className="btn btn-success">CheckOut</Link>
+            <button className="btn btn-success"><Link to='/checkoutDetails' className="checklink">CheckOut</Link></button>
             </div>
           </div>
         </div>

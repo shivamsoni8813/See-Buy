@@ -20,7 +20,7 @@ function CheckoutDetails() {
         <div>
             <div className="checkoutWrapper">
                
-                    <div className="formbackground">
+                    {/* <div className="formbackground"> */}
                 <div className="checkoutForm">
                 {checkout && <div class="alert alert-success" role="alert">
                     A simple success alert—check it out!
@@ -97,7 +97,7 @@ function CheckoutDetails() {
                         </form>
                     </div>
                 </div>
-            </div>
+            {/* </div> */}
         </div>
     );
 }
